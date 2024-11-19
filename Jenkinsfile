@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-               sudo sh './hello-world.sh'
+               sh './hello-world.sh'
             }
         }
     }
